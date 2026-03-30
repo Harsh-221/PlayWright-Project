@@ -1,0 +1,16 @@
+{
+    "HomePage": {
+        "newCars":"//div[normalize-space()='NEW CARS']",
+        "findNewCars":"text=Find New Cars"
+    },
+
+    "NewCarsPage": {
+        "newCarsHeading":"(//h1[normalize-space()='New Cars'])[1]",
+        "bmwCar":"(//div[normalize-space()='BMW'])[1]",
+        "toyotaCar":"(//div[normalize-space()='Toyota'])[1]",
+        "hondaCar":"(//div[normalize-space()='Honda'])[1]",
+        "hyundaiCar":"(//div[normalize-space()='Hyundai'])[1]"
+    }
+
+
+}
