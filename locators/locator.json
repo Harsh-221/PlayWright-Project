@@ -10,6 +10,11 @@
         "toyotaCar":"(//div[normalize-space()='Toyota'])[1]",
         "hondaCar":"(//div[normalize-space()='Honda'])[1]",
         "hyundaiCar":"(//div[normalize-space()='Hyundai'])[1]"
+    },
+    "CarBase": {
+        "carTitle":"//header[1]/h1[not(contains(text(),'New'))]",
+        "carName":"//div/div/div/div/a/h3",
+        "carPrice":"//div/div/div[3]/div/span/span[1]"
     }
 
 

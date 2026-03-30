@@ -5,6 +5,7 @@ import { BMWPage } from "../page/BMWPage";
 import { HondaPage } from "../page/HondaPage";
 import { ToyotaPage } from "../page/ToyotaPage";
 import { HyundaiPage } from "../page/HyundaiPage";
+import { CarBase } from "../page/CarBase";
 
 export class PageFixtures {
     readonly homePage: HomePage;
@@ -14,6 +15,7 @@ export class PageFixtures {
     readonly toyotaPage: ToyotaPage;
     readonly hyundaiPage: HyundaiPage;  
     readonly page: Page;
+    readonly carBase: CarBase;
 
     constructor(page: Page) {
         this.homePage = new HomePage(page);
@@ -23,6 +25,7 @@ export class PageFixtures {
         this.toyotaPage = new ToyotaPage(page);
         this.hyundaiPage = new HyundaiPage(page);  
         this.page = page;
+        this.carBase = new CarBase(page);
     }
 
     get basePage(): Page {
